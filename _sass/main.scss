@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import "variables";
+
+body {
+    background-color: $base;
+    color: $font-color;
+    font-family: 'Indie Flower', cursive;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: $link-color;
+}
+
 .current {
-    color: green;
+    color: $highlight-color;
+    font-style: normal;
+    text-decoration: none;
 }
