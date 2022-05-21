@@ -1,6 +1,15 @@
+@import "variables";
+
 .navigation {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-color: $highlight-color;
+    font-size: 1.8rem;
+    padding: .6rem 2rem;
+}
+
+.navigation a {
+    margin: 0 2rem;
 }
