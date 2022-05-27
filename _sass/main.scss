@@ -26,8 +26,21 @@ a {
     color: $link-color;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
 .current {
     color: $selected-color;
     font-style: normal;
     text-decoration: none;
+}
+
+.main-div {
+    display: flex;
+    flex-flow: row;
 }

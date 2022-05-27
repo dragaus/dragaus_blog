@@ -1,0 +1,39 @@
+$widths: 100;
+
+%column-styles{
+    display: flex;
+    flex-flow: column;
+}
+%row-styles{
+    display: flex;
+    flex-flow: row;
+}
+
+@mixin column-x-list {
+    @for $i from 1 through $widths {
+        .column-#{$i} {@extend %column-styles; width: percentage($i/$widths);}
+    }
+}
+@mixin row-x-list {
+    @for $i from 1 through $widths {
+        .row-#{$i} {@extend %row-styles; width: percentage($i/$widths);}
+    }
+}
+
+@mixin margin-all-x {
+    @for $i from 1 through $widths{
+        $size: percentage($i/$widths);
+        .margin-all-#{$i} {margin: $size}
+        .margin-horizontal-#{$i} {margin-left: $size; margin-right: $size}
+        .margin-vertical-#{$i} {margin-top: $size; margin-bottom: $size}
+        .margin-left-#{$i} {margin-left: $size;}
+        .margin-right-#{$i} {margin-right: $size}
+        .margin-top-#{$i} {margin-top: $size;}
+        .margin-bottom-#{$i} {margin-bottom: $size}
+
+    }
+    
+}
+
+@include column-x-list;
+@include margin-all-x;
