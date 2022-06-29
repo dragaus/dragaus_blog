@@ -4,7 +4,6 @@ author: dragaus
 ---
 
 Este es el primer blog que escribo desde hace mucho tiempo.
-
 En realidad no estoy muy seguro de que escribir, es el primer blog que escribo de este estilo, es decir solo platico de lo que estoy haciendo, de lo que estoy disfrutando, de lo que va mi dia, de lo que va mi vida.
 
 Me resulta extraño escribir sobre mi, me cuesta trabajo hacerlo, creo que puede ser un gran ejercicio, para tratar de mejorar mi escritura, si de verdad quiero lograr publicar un libro algún día debo empezar por escribir a diario.

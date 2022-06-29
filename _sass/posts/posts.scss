@@ -1,0 +1,13 @@
+.post {
+    display: flex;
+    flex-flow: column;
+}
+
+.post p {
+    width: 100%;
+}
+
+.post img{
+    display: block;
+    margin: auto;
+}
